@@ -1,60 +1,67 @@
+import React from 'react';
+
+import { FaJava, FaPython, FaJs, FaReact, FaAngular, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaGoogle, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaNetworkWired, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
+import { TiCss3 } from 'react-icons/ti';
+
+export const skills=[
+  {name:"Java",icon:<FaJava/>},
+  {name:"Python",icon:<FaPython/>},
+  {name:"ReactJS",icon:<FaReact/>},
+  {name:"AWS",icon:<FaAws/>},
+  {name:"GCP",icon:<FaGoogle/>},
+  {name:"JavaScript",icon:<FaJs/>},
+  {name:"Angular",icon:<FaAngular/>},
+  {name:"NodeJS",icon:<FaNodeJs/>},
+  {name:"Express JS",icon:<FaNode/>},
+  {name:"HTML",icon:<FaHtml5/>},
+  {name:"CSS",icon:<FaCss3Alt/>},
+  {name:"Tailwind CSS",icon:<TiCss3/>},
+  {name:"Flask",icon:<FaFlask/>},
+  {name:"MySQL",icon:<FaDatabase/>},
+  {name:"SQL",icon:<FaDatabase/>},
+  {name:"Git",icon:<FaGit/>},
+  {name:"GitHub",icon:<FaGithub/>},
+  {name:"Perforce P4V",icon:<FaCodeBranch/>},
+  {name:"REST API",icon:<FaNetworkWired/>},
+  {name:"Spring",icon:<FaLeaf/>},
+  {name:"Spring Boot",icon:<FaLeaf/>},
+  {name:"Selenium Automation",icon:<FaCheckCircle/>},
+  {name:"Docker",icon:<FaDocker/>},
+  {name:"Jira",icon:<FaJira/>},
+  {name:"Problem Solving",icon:<FaBrain/>}
+];
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    title: "Adopt-a-Pet",
+    subtitle: "React, Node and Express",
+    description: "A portal to adopt pets. Each animal has a profile page with its attributes.",
+    image: "./Adopt-a-Pet.gif",
+    link: "https://github.com/vishnusaibhosekar/adopt-a-pet",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
+    title: "Notes App Using ReactJS and Firebase",
     subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    description: "A notes app to save notes, make to-do lists. User has to login using a Google Account.",
+    image: "./Notes-React-App.gif",
+    link: "https://github.com/vishnusaibhosekar/NotesReactApp",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    title: "ChatRoom App",
+    subtitle: "NodeJS and WebSockets",
+    description: "A chatting application where multiple users can chat in a chatroom. There is not limit to how many users can join.",
+    image: "./ChatRoom.png",
+    link: "https://github.com/vishnusaibhosekar/ChatRoom",
+  },
+  {
+    title: "E-Commerce Website",
+    subtitle: "Python, Flask, HTML, CSS, Bootstrap, MySQL",
+    description: "A website to buy and sell products. Users can add products to cart, checkout and pay. Admins can add, edit and delete products.",
+    image: "./Shop.jpeg",
+    link: "https://github.com/vishnusaibhosekar/IS601-005/tree/main/VShop",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
-
-export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+export const certifications = [
+  {image: "./AWS-Certified-Cloud-Practitioner_badge.png", name: "Cloud Practitioner", company: "AWS", passed: false}
 ];
