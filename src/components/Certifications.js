@@ -38,7 +38,7 @@ export default function Certifications() {
                         ))}
                 </div>
                 <p className="text-white mb-4">
-                    I am going to give the AWS Cloud Practitioner Certification exam soon. Will update this soon.
+                    I am going to give the AWS Cloud Practitioner Certification exam. Will update this soon.
                     <br/>Check out my <a className="text-blue-500 underline" href="https://www.linkedin.com/in/vishnusaibhosekar/">LinkedIn Profile</a> to view more certificates.
                 </p>
             </div>
