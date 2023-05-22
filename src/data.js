@@ -2,11 +2,13 @@ import React from 'react';
 
 import { FaJava, FaPython, FaJs, FaReact, FaAngular, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaGoogle, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaNetworkWired, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
 import { TiCss3 } from 'react-icons/ti';
+import { SiGo } from 'react-icons/si';
 
 export const skills=[
   {name:"Java",icon:<FaJava/>},
   {name:"Python",icon:<FaPython/>},
   {name:"ReactJS",icon:<FaReact/>},
+  {name:"GoLang", icon: <SiGo/>},
   {name:"AWS",icon:<FaAws/>},
   {name:"GCP",icon:<FaGoogle/>},
   {name:"JavaScript",icon:<FaJs/>},
@@ -17,6 +19,7 @@ export const skills=[
   {name:"CSS",icon:<FaCss3Alt/>},
   {name:"Tailwind CSS",icon:<TiCss3/>},
   {name:"Flask",icon:<FaFlask/>},
+  {name:"MongoDB", icon: <FaDatabase/>},
   {name:"MySQL",icon:<FaDatabase/>},
   {name:"SQL",icon:<FaDatabase/>},
   {name:"Git",icon:<FaGit/>},
