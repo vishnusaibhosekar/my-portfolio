@@ -2,23 +2,28 @@ import React from 'react';
 
 import { FaJava, FaPython, FaJs, FaReact, FaAngular, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaGoogle, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaNetworkWired, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
 import { TiCss3 } from 'react-icons/ti';
-import { SiGo } from 'react-icons/si';
+import { SiGo, SiRuby, SiKubernetes } from 'react-icons/si';
+import { DiRuby } from 'react-icons/di';
+import { AiFillApi } from 'react-icons/ai';
+import { IoSearchSharp } from 'react-icons/io5';
 
 export const skills=[
   {name:"Java",icon:<FaJava/>},
   {name:"Python",icon:<FaPython/>},
   {name:"ReactJS",icon:<FaReact/>},
   {name:"GoLang", icon: <SiGo/>},
+  {name:"Ruby", icon: <SiRuby/>},
   {name:"AWS",icon:<FaAws/>},
   {name:"GCP",icon:<FaGoogle/>},
   {name:"JavaScript",icon:<FaJs/>},
   {name:"Angular",icon:<FaAngular/>},
   {name:"NodeJS",icon:<FaNodeJs/>},
   {name:"Express JS",icon:<FaNode/>},
+  {name:"Ruby on Rails", icon: <DiRuby/>},
+  {name:"Flask",icon:<FaFlask/>},
   {name:"HTML",icon:<FaHtml5/>},
   {name:"CSS",icon:<FaCss3Alt/>},
   {name:"Tailwind CSS",icon:<TiCss3/>},
-  {name:"Flask",icon:<FaFlask/>},
   {name:"MongoDB", icon: <FaDatabase/>},
   {name:"MySQL",icon:<FaDatabase/>},
   {name:"SQL",icon:<FaDatabase/>},
@@ -26,10 +31,13 @@ export const skills=[
   {name:"GitHub",icon:<FaGithub/>},
   {name:"Perforce P4V",icon:<FaCodeBranch/>},
   {name:"REST API",icon:<FaNetworkWired/>},
+  {name:"GraphQL", icon: <AiFillApi/>},
+  {name: "Elasticsearch", icon: <IoSearchSharp/>},
   {name:"Spring",icon:<FaLeaf/>},
   {name:"Spring Boot",icon:<FaLeaf/>},
   {name:"Selenium Automation",icon:<FaCheckCircle/>},
   {name:"Docker",icon:<FaDocker/>},
+  { name: "Kubernetes", icon: <SiKubernetes /> },
   {name:"Jira",icon:<FaJira/>},
   {name:"Problem Solving",icon:<FaBrain/>}
 ];
