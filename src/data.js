@@ -6,20 +6,20 @@ import { SiGo, SiRuby, SiKubernetes, SiRedux } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
 import { AiFillApi } from 'react-icons/ai';
 import { IoSearchSharp } from 'react-icons/io5';
+import { SiGnubash, SiPerl } from 'react-icons/si';
 
 export const skills=[
   {name:"Java",icon:<FaJava/>},
   {name:"Python",icon:<FaPython/>},
   {name:"ReactJS",icon:<FaReact/>},
   {name:"GoLang", icon: <SiGo/>},
-  {name:"Ruby", icon: <SiRuby/>},
   {name:"AWS",icon:<FaAws/>},
   {name:"GCP",icon:<FaGoogle/>},
   {name:"JavaScript",icon:<FaJs/>},
   {name:"Angular",icon:<FaAngular/>},
   {name:"NodeJS",icon:<FaNodeJs/>},
   {name:"Express JS",icon:<FaNode/>},
-  {name: "Redux", icon: <SiRedux />},
+  {name:"Redux", icon: <SiRedux />},
   {name:"Ruby on Rails", icon: <DiRuby/>},
   {name:"Flask",icon:<FaFlask/>},
   {name:"HTML",icon:<FaHtml5/>},
@@ -28,17 +28,20 @@ export const skills=[
   {name:"MongoDB", icon: <FaDatabase/>},
   {name:"MySQL",icon:<FaDatabase/>},
   {name:"SQL",icon:<FaDatabase/>},
+  {name:"Ruby", icon: <SiRuby/>},
+  {name:"Bash", icon: <SiGnubash/>},
+  {name:"Perl", icon: <SiPerl/>},
   {name:"Git",icon:<FaGit/>},
   {name:"GitHub",icon:<FaGithub/>},
   {name:"Perforce P4V",icon:<FaCodeBranch/>},
   {name:"REST API",icon:<FaNetworkWired/>},
   {name:"GraphQL", icon: <AiFillApi/>},
-  {name: "Elasticsearch", icon: <IoSearchSharp/>},
+  {name:"Elasticsearch", icon: <IoSearchSharp/>},
   {name:"Spring",icon:<FaLeaf/>},
   {name:"Spring Boot",icon:<FaLeaf/>},
   {name:"Selenium Automation",icon:<FaCheckCircle/>},
   {name:"Docker",icon:<FaDocker/>},
-  {name: "Kubernetes", icon: <SiKubernetes />},
+  {name:"Kubernetes", icon: <SiKubernetes/>},
   {name:"Jira",icon:<FaJira/>},
   {name:"Problem Solving",icon:<FaBrain/>}
 ];
