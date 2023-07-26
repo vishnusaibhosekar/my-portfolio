@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FaJava, FaPython, FaJs, FaReact, FaAngular, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaGoogle, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaNetworkWired, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
 import { TiCss3 } from 'react-icons/ti';
-import { SiGo, SiRuby, SiKubernetes } from 'react-icons/si';
+import { SiGo, SiRuby, SiKubernetes, SiRedux } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
 import { AiFillApi } from 'react-icons/ai';
 import { IoSearchSharp } from 'react-icons/io5';
@@ -19,6 +19,7 @@ export const skills=[
   {name:"Angular",icon:<FaAngular/>},
   {name:"NodeJS",icon:<FaNodeJs/>},
   {name:"Express JS",icon:<FaNode/>},
+  {name: "Redux", icon: <SiRedux />},
   {name:"Ruby on Rails", icon: <DiRuby/>},
   {name:"Flask",icon:<FaFlask/>},
   {name:"HTML",icon:<FaHtml5/>},
@@ -37,7 +38,7 @@ export const skills=[
   {name:"Spring Boot",icon:<FaLeaf/>},
   {name:"Selenium Automation",icon:<FaCheckCircle/>},
   {name:"Docker",icon:<FaDocker/>},
-  { name: "Kubernetes", icon: <SiKubernetes /> },
+  {name: "Kubernetes", icon: <SiKubernetes />},
   {name:"Jira",icon:<FaJira/>},
   {name:"Problem Solving",icon:<FaBrain/>}
 ];
