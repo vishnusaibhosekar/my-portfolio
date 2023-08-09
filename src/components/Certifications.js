@@ -14,14 +14,15 @@ export default function Certifications() {
                     {certifications
                         .filter((certification) => certification.passed) // only show passed certifications
                         .map((certification) => (
-                            <a>
-                                <div className="p-4 md:w-full">
+                            <a href={certification.link} key={certification.name} target="_blank">
+                                <div className="p-4 md:w-full cursor-pointer" style={{ height: "150px", width: "450px" }}>
                                     <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                                         <div className="inline-flex items-center">
                                             <img
                                                 alt="certification"
                                                 src={certification.image}
                                                 className="w-12 flex-shrink-0 object-cover object-center"
+                                                style={{ height: "55px", width: "55px" }}
                                             />
                                             <span className="flex-grow flex flex-col pl-4">
                                                 <span className="title-font font-medium text-white">
@@ -37,10 +38,6 @@ export default function Certifications() {
                             </a>
                         ))}
                 </div>
-                <p className="text-white mb-4">
-                    I am going to give the AWS Cloud Practitioner Certification exam. Will update this soon.
-                    <br/>Check out my <a className="text-blue-500 underline" href="https://www.linkedin.com/in/vishnusaibhosekar/">LinkedIn Profile</a> to view more certificates.
-                </p>
             </div>
         </section>
     );

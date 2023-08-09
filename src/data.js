@@ -78,5 +78,32 @@ export const projects = [
 ];
 
 export const certifications = [
-  {image: "./AWS-Certified-Cloud-Practitioner_badge.png", name: "Cloud Practitioner", company: "AWS", passed: false}
+  {
+    link: "https://www.credly.com/badges/918d8fb8-81fa-4fae-8d79-76d3328eb053/public_url",
+    image: "./AWS-Certified-Cloud-Practitioner_badge.png",
+    name: "Cloud Practitioner",
+    company: "AWS",
+    passed: true
+  },
+  {
+    link: "https://www.linkedin.com/learning/certificates/9c06ae57dbaf06e58d8997c6cbe42f3bad8e72074196b74ab35795a5f13ce987?accountId=36051636&u=36051636&success=true&authUUID=S0cCdoz%2BSwOjAPaO3d1ksQ%3D%3D",
+    image: "./linkedin.jpg",
+    name: "Career Essentials in Generative AI by Microsoft and LinkedIn",
+    company: "Microsoft & LinkedIn",
+    passed: true
+  },
+  {
+    link: "https://www.hackerrank.com/certificates/3d0568f11563",
+    image: "./hackerrank.png",
+    name: "Problem Solving (Intermediate) Certificate",
+    company: "HackerRank",
+    passed: true
+  },
+  {
+    link: "https://www.udemy.com/certificate/UC-5707efd7-dc28-4222-9245-779ae8605698/",
+    image: "./udemy.png",
+    name: "Ultimate AWS Certified Cloud Practitioner - 2023",
+    company: "Udemy",
+    passed: true
+  }
 ];
