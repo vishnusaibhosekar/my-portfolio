@@ -30,7 +30,8 @@ export default function About() {
             <img
                 className="object-cover object-center rounded"
                 alt="hero"
-                src="./coding.svg"
+                src="./VSB.png"
+                style={{ height: "500px", width: "500px", borderRadius: "25%" }}
             />
             </div>
         </div>

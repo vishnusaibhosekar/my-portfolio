@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaJava, FaPython, FaJs, FaReact, FaAngular, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaGoogle, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaNetworkWired, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
+import { FaJava, FaPython, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaGoogle, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaNetworkWired, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
 import { TiCss3 } from 'react-icons/ti';
 import { SiGo, SiRuby, SiKubernetes, SiRedux } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
@@ -17,6 +17,7 @@ export const skills=[
   {name:"GCP",icon:<FaGoogle/>},
   {name:"JavaScript",icon:<FaJs/>},
   {name:"Angular",icon:<FaAngular/>},
+  {name: "Vue.js", icon:<FaVuejs/>},
   {name:"NodeJS",icon:<FaNodeJs/>},
   {name:"Express JS",icon:<FaNode/>},
   {name:"Redux", icon: <SiRedux />},
@@ -37,6 +38,7 @@ export const skills=[
   {name:"REST API",icon:<FaNetworkWired/>},
   {name:"GraphQL", icon: <AiFillApi/>},
   {name:"Elasticsearch", icon: <IoSearchSharp/>},
+  {name:"ReactNative",icon:<FaReact/>},
   {name:"Spring",icon:<FaLeaf/>},
   {name:"Spring Boot",icon:<FaLeaf/>},
   {name:"Selenium Automation",icon:<FaCheckCircle/>},

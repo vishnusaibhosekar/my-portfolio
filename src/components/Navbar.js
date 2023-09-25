@@ -7,7 +7,7 @@ export default function Navbar() {
         <header className="bg-gray-800 md:sticky top-0 z-10">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <div className="flex items-center">
-                    <img className="w-12 h-12 rounded-full" src="./VSB_DP.jpg" alt="Profile" />
+                    <img className="w-12 h-12 rounded-full" src="./VSBlogo.png" alt="Profile" />
                     <a href="#about" className="ml-3 text-xl">
                         <span className="font-medium text-white">Vishnu Sai Bhosekar</span>
                     </a>
