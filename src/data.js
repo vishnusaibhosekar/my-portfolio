@@ -4,7 +4,6 @@ import { FaJava, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaNode, FaHtml5, F
 import { TiCss3 } from 'react-icons/ti';
 import { SiRuby, SiRedux } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
-import { IoSearchSharp } from 'react-icons/io5';
 import { SiGnubash } from 'react-icons/si';
 
 export const skills=[
@@ -30,7 +29,6 @@ export const skills=[
   {name:"Git",icon:<FaGit/>},
   {name:"GitHub",icon:<FaGithub/>},
   {name:"Perforce P4V",icon:<FaCodeBranch/>},
-  {name:"Elasticsearch", icon: <IoSearchSharp/>},
   {name:"ReactNative",icon:<FaReact/>},
   {name:"Spring",icon:<FaLeaf/>},
   {name:"Spring Boot",icon:<FaLeaf/>},
@@ -73,7 +71,7 @@ export const projects = [
 
 export const certifications = [
   {
-    link: "https://www.credly.com/badges/918d8fb8-81fa-4fae-8d79-76d3328eb053/public_url",
+    link: "Need to fill this in",
     image: "./AWS-Certified-Developer-Associate_badge.png",
     name: "Developer Associate",
     company: "AWS",
