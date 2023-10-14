@@ -22,7 +22,7 @@ export default function Contact() {
     }
 
     return (
-        <section id="contact" className="relative" style={{ paddingTop: "80px" }}>
+        <section id="contact" className="relative" style={{ maxWidth: "80%", paddingTop: "80px", margin: "0 auto" }}>
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
             <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
@@ -31,7 +31,7 @@ export default function Contact() {
                 title="map"
                 className="absolute inset-0"
                 style={{ filter: "opacity(0.7)" }}
-                src="https://www.google.com/maps/embed/v1/place?q=44+Wallis+Avenue,+Jersey+City,+NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                src="https://www.google.com/maps/embed/v1/place?q=Jersey+City,+NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             />
             <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                 <div className="lg:w-2/5 px-6">
@@ -39,7 +39,6 @@ export default function Contact() {
                     ADDRESS
                 </h2>
                 <p className="mt-1">
-                    44 Wallis Ave <br />
                     Jersey City, NJ 07306
                 </p>
                 </div>

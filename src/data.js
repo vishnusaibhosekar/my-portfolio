@@ -71,7 +71,7 @@ export const projects = [
 
 export const certifications = [
   {
-    link: "Need to fill this in",
+    link: "https://www.credly.com/badges/ef2eb51b-6509-475c-91a5-e30a30cf1314/public_url",
     image: "./AWS-Certified-Developer-Associate_badge.png",
     name: "Developer Associate",
     company: "AWS",
