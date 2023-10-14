@@ -1,23 +1,20 @@
 import React from 'react';
 
-import { FaJava, FaPython, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaGoogle, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaNetworkWired, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
+import { FaJava, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
 import { TiCss3 } from 'react-icons/ti';
-import { SiGo, SiRuby, SiKubernetes, SiRedux } from 'react-icons/si';
+import { SiRuby, SiRedux } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
-import { AiFillApi } from 'react-icons/ai';
 import { IoSearchSharp } from 'react-icons/io5';
-import { SiGnubash, SiPerl } from 'react-icons/si';
+import { SiGnubash } from 'react-icons/si';
 
 export const skills=[
-  {name:"Java",icon:<FaJava/>},
-  {name:"Python",icon:<FaPython/>},
-  {name:"ReactJS",icon:<FaReact/>},
-  {name:"GoLang", icon: <SiGo/>},
   {name:"AWS",icon:<FaAws/>},
-  {name:"GCP",icon:<FaGoogle/>},
+  {name:"Java",icon:<FaJava/>},
+  {name:"Ruby", icon: <SiRuby/>},
   {name:"JavaScript",icon:<FaJs/>},
+  {name:"ReactJS",icon:<FaReact/>},
   {name:"Angular",icon:<FaAngular/>},
-  {name: "Vue.js", icon:<FaVuejs/>},
+  {name:"Vue.js", icon:<FaVuejs/>},
   {name:"NodeJS",icon:<FaNodeJs/>},
   {name:"Express JS",icon:<FaNode/>},
   {name:"Redux", icon: <SiRedux />},
@@ -29,21 +26,16 @@ export const skills=[
   {name:"MongoDB", icon: <FaDatabase/>},
   {name:"MySQL",icon:<FaDatabase/>},
   {name:"SQL",icon:<FaDatabase/>},
-  {name:"Ruby", icon: <SiRuby/>},
   {name:"Bash", icon: <SiGnubash/>},
-  {name:"Perl", icon: <SiPerl/>},
   {name:"Git",icon:<FaGit/>},
   {name:"GitHub",icon:<FaGithub/>},
   {name:"Perforce P4V",icon:<FaCodeBranch/>},
-  {name:"REST API",icon:<FaNetworkWired/>},
-  {name:"GraphQL", icon: <AiFillApi/>},
   {name:"Elasticsearch", icon: <IoSearchSharp/>},
   {name:"ReactNative",icon:<FaReact/>},
   {name:"Spring",icon:<FaLeaf/>},
   {name:"Spring Boot",icon:<FaLeaf/>},
   {name:"Selenium Automation",icon:<FaCheckCircle/>},
   {name:"Docker",icon:<FaDocker/>},
-  {name:"Kubernetes", icon: <SiKubernetes/>},
   {name:"Jira",icon:<FaJira/>},
   {name:"Problem Solving",icon:<FaBrain/>}
 ];
@@ -80,6 +72,13 @@ export const projects = [
 ];
 
 export const certifications = [
+  {
+    link: "https://www.credly.com/badges/918d8fb8-81fa-4fae-8d79-76d3328eb053/public_url",
+    image: "./AWS-Certified-Developer-Associate_badge.png",
+    name: "Developer Associate",
+    company: "AWS",
+    passed: true
+  },
   {
     link: "https://www.credly.com/badges/918d8fb8-81fa-4fae-8d79-76d3328eb053/public_url",
     image: "./AWS-Certified-Cloud-Practitioner_badge.png",
