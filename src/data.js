@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaJava, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaFlask, FaAws, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaLeaf, FaCheckCircle, FaDocker, FaBrain, FaJira } from "react-icons/fa";
+import { FaJava, FaJs, FaReact, FaAngular, FaNodeJs, FaNode, FaHtml5, FaCss3Alt, FaAws, FaDatabase, FaGit, FaGithub, FaCodeBranch, FaLeaf, FaCheckCircle, FaDocker, FaJira } from "react-icons/fa";
 import { TiCss3 } from 'react-icons/ti';
 import { SiRuby, SiRedux } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
@@ -13,29 +13,24 @@ export const skills=[
   {name:"JavaScript",icon:<FaJs/>},
   {name:"ReactJS",icon:<FaReact/>},
   {name:"Angular",icon:<FaAngular/>},
-  {name:"Vue.js", icon:<FaVuejs/>},
   {name:"NodeJS",icon:<FaNodeJs/>},
   {name:"Express JS",icon:<FaNode/>},
   {name:"Redux", icon: <SiRedux />},
   {name:"Ruby on Rails", icon: <DiRuby/>},
-  {name:"Flask",icon:<FaFlask/>},
   {name:"HTML",icon:<FaHtml5/>},
   {name:"CSS",icon:<FaCss3Alt/>},
   {name:"Tailwind CSS",icon:<TiCss3/>},
   {name:"MongoDB", icon: <FaDatabase/>},
   {name:"MySQL",icon:<FaDatabase/>},
-  {name:"SQL",icon:<FaDatabase/>},
   {name:"Bash", icon: <SiGnubash/>},
   {name:"Git",icon:<FaGit/>},
   {name:"GitHub",icon:<FaGithub/>},
   {name:"Perforce P4V",icon:<FaCodeBranch/>},
   {name:"ReactNative",icon:<FaReact/>},
-  {name:"Spring",icon:<FaLeaf/>},
   {name:"Spring Boot",icon:<FaLeaf/>},
   {name:"Selenium Automation",icon:<FaCheckCircle/>},
   {name:"Docker",icon:<FaDocker/>},
-  {name:"Jira",icon:<FaJira/>},
-  {name:"Problem Solving",icon:<FaBrain/>}
+  {name:"Jira",icon:<FaJira/>}
 ];
 
 export const projects = [
@@ -73,15 +68,15 @@ export const certifications = [
   {
     link: "https://www.credly.com/badges/ef2eb51b-6509-475c-91a5-e30a30cf1314/public_url",
     image: "./AWS-Certified-Developer-Associate_badge.png",
-    name: "Developer Associate",
-    company: "AWS",
+    name: "Developer - Associate",
+    company: "Amazon Web Services (AWS)",
     passed: true
   },
   {
     link: "https://www.credly.com/badges/918d8fb8-81fa-4fae-8d79-76d3328eb053/public_url",
     image: "./AWS-Certified-Cloud-Practitioner_badge.png",
     name: "Cloud Practitioner",
-    company: "AWS",
+    company: "Amazon Web Services (AWS)",
     passed: true
   },
   {

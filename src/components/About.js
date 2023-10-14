@@ -11,8 +11,12 @@ export default function About() {
                 apps.
             </h1>
             <p className="mb-8 leading-relaxed">
-            With 5+ years of experience, I possess a wealth of knowledge in developing scalable and efficient software solutions using a diverse range of technologies, including Java, Python, and JavaScript. My expertise extends across the full-stack, with proficiency in front-end frameworks such as ReactJS and Angular, and back-end technologies like NodeJS and ExpressJS. Additionally, I have hands-on experience in designing and implementing AWS solutions, including S3, Lambda, EC2, and CloudFront. My commitment to delivering high-quality software solutions that meet business needs and drive innovation remains steadfast.
+            With 5+ years of experience, I possess a wealth of knowledge in developing scalable and efficient software solutions using a diverse range of technologies, including Java, Python, and JavaScript. My expertise extends across the full-stack, with proficiency in front-end frameworks such as ReactJS and Angular, and back-end technologies like NodeJS and SpringBoot. Additionally, I have hands-on experience in designing and implementing AWS solutions, including S3, Lambda, EC2, and CloudFront. My commitment to delivering high-quality software solutions that meet business needs and drive innovation remains steadfast.
             </p>
+            <p>
+            Furthermore, I hold the <strong>AWS Certified Developer - Associate certification</strong> and the <strong>AWS Cloud Practitioner certification</strong>, which validates my expertise in developing and deploying applications on the Amazon Web Services platform.
+            </p>
+            <br />
             <div className="flex justify-center">
                 <a
                 href="#contact"
